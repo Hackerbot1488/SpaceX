@@ -1,0 +1,31 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	padding-top: 53px;
+	font-family: "Roboto", sans-serif;
+	background-color: #010001;
+}
+.header {
+	max-width: 1230px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.list__link {
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 12px;
+	line-height: 14px;
+}
