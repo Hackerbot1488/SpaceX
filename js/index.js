@@ -1,3 +1,4 @@
+AOS.init()
 const instance = new vidbg('.video', {
   mp4: '../video/world.mp4', // URL or relative path to MP4 video
   webm: '../video/world.webm', // URL or relative path to webm video
